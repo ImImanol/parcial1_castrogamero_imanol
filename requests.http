@@ -1,0 +1,42 @@
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Fulanito Funes",
+    "email": "fula@gmail.com"
+}
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+
+###
+GET http://localhost:3000/api/users/6528d0ac52325fff401d0a04 HTTP/1.1
+
+###
+PUT http://localhost:3000/api/users/6528d10e52325fff401d0a08 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Nazareno Funes",
+    "email": "nazaf@gmail.com"
+}
+
+###
+DELETE http://localhost:3000/api/users/6528d72197a6801b51511c41 HTTP/1.1
+
+###
+POST http://localhost:3000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Xbox360",
+    "description": "The worst console in the hole world",
+    "price": 7
+}
+
+###
+GET http://localhost:3000/api/products HTTP/1.1
+
+###
+GET http://localhost:3000/api/products/6528e5fe2bd1795c28d37ea2 HTTP/1.1
